@@ -5,3 +5,7 @@ def index(request):
 
 def indexito(request):
     return render(request,'bryancito/indexito.html',{})
+
+def login(request):
+    return render(request,'login/login.html',{})
+
